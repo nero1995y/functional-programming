@@ -18,3 +18,10 @@ const array3 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9].map((num) => Math.pow(num, 2));
 console.log(array);
 console.log(array2);
 console.log(array3);
+
+let counter = 0;
+function increment() {
+  return ++counter;
+}
+
+console.log(increment());
